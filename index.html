@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>COGNITECHAIN: ROMPE LA JAULA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="ui">
+  <div>COGNITECHAIN: ROMPE LA JAULA</div>
+  <div>Dirección: <span id="addr">generando...</span></div>
+  <div>COGNITE-COIN: <span id="balance">0</span></div>
+  <div>Bloques minados: <span id="blocks">0</span></div>
+  <button onclick="golpear()">GOLPEAR JAULA</button>
+
+  <div id="file-ui">
+    <input type="file" id="fileInput">
+    <button onclick="subirArchivo()">Subir archivo</button>
+    <div id="uploadStatus"></div>
+  </div>
+</div>
+
+<div id="msg"></div>
+<script src="main.js"></script>
+</body>
+</html>
