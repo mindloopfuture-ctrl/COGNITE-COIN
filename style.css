@@ -1,0 +1,6 @@
+body{margin:0;background:#000;overflow:hidden;font-family:'Courier New',monospace;color:#0f0}
+canvas{display:block}
+#ui{position:absolute;top:10px;left:10px;background:rgba(0,255,0,0.1);padding:15px;border:2px solid #0f0;border-radius:10px}
+#ui div{margin:5px 0;font-size:18px}
+#msg{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);font-size:32px;color:#0f0;text-shadow:0 0 10px #0f0;opacity:0;pointer-events:none}
+button{background:#0f0;color:#000;border:none;padding:15px 30px;font-size:20px;font-weight:bold;cursor:pointer;margin-top:10px;border-radius:10px}
